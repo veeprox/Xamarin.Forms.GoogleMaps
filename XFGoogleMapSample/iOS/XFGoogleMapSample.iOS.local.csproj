@@ -129,9 +129,7 @@
       <InProject>false</InProject>
     </ImageAsset>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
   </ItemGroup>
@@ -149,6 +147,237 @@
     <BundleResource Include="image02.png" />
     <BundleResource Include="image03.png" />
     <BundleResource Include="pin_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\10\847\608.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\10\848\608.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\11\1694\1216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\11\1694\1217.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\11\1695\1216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\11\1695\1217.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\11\1696\1216.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\11\1696\1217.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3389\2432.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3389\2433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3389\2434.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3390\2432.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3390\2433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3390\2434.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3391\2432.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3391\2433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3391\2434.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3392\2432.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3392\2433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3392\2434.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3393\2432.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3393\2433.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\12\3393\2434.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6779\4864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6779\4865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6779\4866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6779\4867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6779\4868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6779\4869.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6780\4864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6780\4865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6780\4866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6780\4867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6780\4868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6780\4869.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6781\4864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6781\4865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6781\4866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6781\4867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6781\4868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6781\4869.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6782\4864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6782\4865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6782\4866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6782\4867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6782\4868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6782\4869.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6783\4864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6783\4865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6783\4866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6783\4867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6783\4868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6783\4869.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6784\4864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6784\4865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6784\4866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6784\4867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6784\4868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6784\4869.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6785\4864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6785\4865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6785\4866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6785\4867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6785\4868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6785\4869.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6786\4864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6786\4865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6786\4866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6786\4867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6786\4868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6786\4869.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6787\4864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6787\4865.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6787\4866.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6787\4867.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6787\4868.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tile-cache\13\6787\4869.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="$(SolutionDir)\packages\Xamarin.Forms.2.3.0.49\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('$(SolutionDir)\packages\Xamarin.Forms.2.3.0.49\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />

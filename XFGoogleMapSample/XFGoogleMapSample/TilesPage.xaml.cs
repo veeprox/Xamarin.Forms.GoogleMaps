@@ -1,5 +1,7 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.GoogleMaps;
@@ -12,7 +14,7 @@ namespace XFGoogleMapSample
         {
             InitializeComponent();
 
-            TileLayer objTile  = null;
+            TileLayer objTile = null;
             Button currentDisable = buttonRemove;
             buttonRemove.IsEnabled = false;
 
@@ -46,7 +48,7 @@ namespace XFGoogleMapSample
                 if (objTile != null) map.TileLayers.Remove(objTile);
 
                 objTile = TileLayer.FromTileUri((int x, int y, int zoom) =>
-                    new Uri($"https://cyberjapandata.gsi.go.jp/xyz/std/{zoom}/{x}/{y}.png") );
+                    new Uri($"https://cyberjapandata.gsi.go.jp/xyz/std/{zoom}/{x}/{y}.png"));
                 objTile.Tag = "JGSITILE"; // Can set any object
 
                 map.TileLayers.Add(objTile);
@@ -61,7 +63,7 @@ namespace XFGoogleMapSample
             {
                 if (objTile != null) map.TileLayers.Remove(objTile);
 
-                objTile = TileLayer.FromSyncImage((int x, int y, int zoom) =>  andImage);
+                objTile = TileLayer.FromSyncImage((int x, int y, int zoom) => andImage);
                 objTile.Tag = "SYNCTILE"; // Can set any object
 
                 map.TileLayers.Add(objTile);
@@ -83,6 +85,40 @@ namespace XFGoogleMapSample
                         return appImage;
                     });
                 });
+                objTile.Tag = "ASYNCTILE"; // Can set any object
+
+                map.TileLayers.Add(objTile);
+
+                currentDisable.IsEnabled = true;
+                currentDisable = (Button)sender;
+                currentDisable.IsEnabled = false;
+            };
+
+            //offline tiles
+            buttonOfflineTiles.Clicked += (sender, e) =>
+            {
+                if (objTile != null) map.TileLayers.Remove(objTile);
+
+                map.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(-32.069277, 118.0846), new Distance(10000)));
+
+                objTile = TileLayer.FromSyncImage((int x, int y, int zoom) =>
+                {
+                    var targetTile = $"XFGoogleMapSample.tile_cache._{zoom}._{x}.{y}.png";
+
+                    var pclAssembly = typeof(TilesPage).GetTypeInfo().Assembly;
+                    var stream = pclAssembly.GetManifestResourceStream(targetTile);
+                    if (stream != null)
+                    {
+                        var imageBuffer = new byte[stream.Length];
+
+                        stream.Read(imageBuffer, 0, imageBuffer.Length);
+
+                        return imageBuffer;
+                    }
+
+                    return new byte[0];
+                });
+
                 objTile.Tag = "ASYNCTILE"; // Can set any object
 
                 map.TileLayers.Add(objTile);

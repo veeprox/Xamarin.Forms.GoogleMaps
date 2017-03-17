@@ -17,27 +17,27 @@
                     <RowDefinition Height="Auto" />
                     <RowDefinition Height="Auto" />
                 </Grid.RowDefinitions>
-             
+
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto" />
-                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition  />
+                    <ColumnDefinition  />
                 </Grid.ColumnDefinitions>
-                
+
                 <Button x:Name="buttonORMTile"
                         Text="OpenRailwayMap (512px)"
                         Grid.Row="0"
                         Grid.Column="0"/>
-                
+
                 <Button x:Name="buttonJGSITile"
                         Text="Japan GSI"
                         Grid.Row="0"
                         Grid.Column="1"/>
-                
+
                 <Button x:Name="buttonSyncImage"
                         Text="Image (Sync)"
                         Grid.Row="1"
                         Grid.Column="0"/>
-                
+
                 <Button x:Name="buttonAsyncImage"
                         Text="Image (Async)"
                         Grid.Row="1"
@@ -45,14 +45,14 @@
 
                 <Button x:Name="buttonOfflineTiles"
                         Text="Offline Biami"
-                        Grid.Row="1"
-                        Grid.Column="1"/>
+                        Grid.Row="2"
+                        Grid.Column="0"/>
 
                 <Button x:Name="buttonRemove"
                         Text="Remove Tile"
                         Grid.Row="3"
                         Grid.Column="0"                
-                        Grid.ColumnSpan="2" />               
+                        Grid.ColumnSpan="2" />
             </Grid>
 
             <maps:Map x:Name="map" 

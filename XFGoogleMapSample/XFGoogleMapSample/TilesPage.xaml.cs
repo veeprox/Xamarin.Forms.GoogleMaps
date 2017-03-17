@@ -116,7 +116,7 @@ namespace XFGoogleMapSample
                         return imageBuffer;
                     }
 
-                    return new byte[0];
+                    return null;
                 });
 
                 objTile.Tag = "ASYNCTILE"; // Can set any object
